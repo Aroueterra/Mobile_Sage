@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+    <style name="Theme.App.Mint" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--<item name="imageButtonStyle">
+            @style/Widget.Button.Primary
+        </item>-->
+        <item name="colorPrimary">@color/mintColorPrimary</item>
+        <item name="colorPrimaryDark">@color/mintColorPrimaryDark</item>
+        <item name="colorAccent">@color/mintColorAccent</item>
+        <!--<item name="primaryTextColor">@color/mintPrimaryText</item>
+        <item name="buttonNormalColor">@color/mintButtonNormal</item>
+        <item name="buttonHighlightColor">
+            @color/mintButtonHighlight
+        </item>-->
+        <!--<item name="buttonTextColor">@color/mintButtonText</item>
+        <item name="iconColor">@color/mintIcon</item>-->
+    </style>
+</resources>
